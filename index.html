@@ -27,7 +27,7 @@
 
         .bg-overlay {
             position: fixed; top: 0; left: 0; width: 100%; height: 100%;
-            /* URL kısmına ./ ekledim, daha güvenli yol */
+            /* SİTE ARKA PLANI: BURADA EMBED.PNG VAR */
             background: linear-gradient(rgba(0,0,0,0.85), rgba(0,0,0,0.95)), url('./public/embed.png');
             background-size: cover; 
             background-position: center;
@@ -184,7 +184,6 @@
     </div>
 
     <script>
-        // SCRIPT KISMI AYNI KALDI
         document.onkeydown = function(e) {
             if(e.keyCode == 123) return false;
             if(e.ctrlKey && e.shiftKey && (e.keyCode == 'I'.charCodeAt(0) || e.keyCode == 'C'.charCodeAt(0) || e.keyCode == 'J'.charCodeAt(0))) return false;
